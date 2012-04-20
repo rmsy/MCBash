@@ -25,51 +25,47 @@
         </ul>
       </header>
       <section>
-        <p>== &lt;</p>&gt;&lt;&gt;&lt;&gt;MCBash&lt;&gt;&lt;&gt;&lt;&gt; ==
-=== What is MCBash? ===
-MCBash is a set of bash utilities that allows for ease-of-mind for server administrators, by way of automated integrity checks, automated server and MySQL backups, and automated server.log deletion.
-
-<hr><p>=== How does MCBash work? ===
-MCBash is a set of scripts that are automatically executed by <strong>//Cron//</strong>, a scheduling utility, at desired intervals.</p>
-
-<p>=== How often does MCBash back up my stuff? ===
-However often you want it to. However, the design from the begenning was this:</p>
-
-<ul>
-<li>MCBash runs your startup script at boot.
-** MCBash checks every 5 minutes to ensure that your startup script is still running. If it's not, it will restart it.</li>
-<li>MCBash clears your server.log, backs up, and compresses your entire server directory every hour.
-** MCBash compresses all of your hourly backups at the end of the day into one compressed file.</li>
-</ul><p>=== Dependencies ===
-//Italics are optional.//</p>
-
-<ul>
-<li>Screen</li>
-<li>Cron</li>
-<li>TAR</li>
-<li>//MySQL//</li>
-<li>//MySQL-Server//</li>
-</ul><h2>== [[<a href="http://dev.bukkit.org/server-mods/mcbash/pages/setup/%7CSetup%5D">http://dev.bukkit.org/server-mods/mcbash/pages/setup/|Setup]</a>] ==</h2>
-
-<p>=== To-Do ===</p>
-
-<h1>Create an automated installation script.</h1>
-
-<h2>Add an optional flag to the installation script to guide you through configuration automatically.</h2>
-
-<h1>Add support for multiple MySQL databases.</h1>
-
-<h1>Prettier and more dynamic output.</h1>
-
-<h1>Filesum checks for file integrity.</h1>
-
-<h1>Create utilities to interact with the server itself.</h1>
-
-<h1>Prettier BukkitDev markup.</h1>
-
-<h1>//<strong>Who knows?</strong>// This project can always expand, and that's my goal. It's a broad, broad title, and I want to take advantage of that. I want this to eventually be a host of utilities to make server administrators lives easier.</h1>
-
-<p>//*<em>All feedback is appreciated! :) *</em>//</p>
+<h2> <<center>><<color 4c4c4c>><<size 220%>>MCBash<</size>><</color>><</center>> </h2>¶
+¶
+<h3> What is MCBash? </h3>¶
+<p>¶
+MCBash is a set of bash utilities that allows for ease-of-mind for server administrators, by way of automated integrity checks, automated server and MySQL backups, and automated server.log deletion.</p>¶
+<p>&#8212;-</p>¶
+<h3> How does MCBash work? </h3>¶
+<p>¶
+MCBash is a set of scripts that are automatically executed by *<strong>//Cron//</strong>*, a scheduling utility, at desired intervals.¶
+</p>¶
+<h3> How often does MCBash back up my stuff? </h3>¶
+<p>¶
+However often you want it to. However, the design from the begenning was this:</p><ul>¶
+<li class="u">MCBash runs your startup script at boot.<ul>¶
+<li class="uu">MCBash checks every 5 minutes to ensure that your startup script is still running. If it's not, it will restart it.</li></ul></li>¶
+<li class="u">MCBash clears your server.log, backs up, and compresses your entire server directory every hour.<ul>¶
+<li class="uu">MCBash compresses all of your hourly backups at the end of the day into one compressed file.¶
+</li></ul></li></ul>¶
+<h3> Dependencies </h3>¶
+<p>¶
+//Italics are optional.//</p><ul>¶
+<li class="u">Screen</li>¶
+<li class="u">Cron</li>¶
+<li class="u">TAR</li>¶
+<li class="u">//MySQL//</li>¶
+<li class="u">//MySQL-Server//¶
+</li></ul>¶
+<h2> [[http://dev.bukkit.org/server-mods/mcbash/pages/setup/<td><p>Setup]] </h2>¶
+¶
+&#8212;-</p>¶
+<h3> To-Do </h3>¶
+<p>¶
+# Create an automated installation script.¶
+## Add an optional flag to the installation script to guide you through configuration automatically.¶
+# Add support for multiple MySQL databases.¶
+# Prettier and more dynamic output.¶
+# Filesum checks for file integrity.¶
+# Create utilities to interact with the server itself.¶
+# Prettier BukkitDev markup.¶
+# //*<strong>Who knows?</strong>*// This project can always expand, and that's my goal. It's a broad, broad title, and I want to take advantage of that. I want this to eventually be a host of utilities to make server administrators lives easier.</p>¶
+<p>//*<strong>All feedback is appreciated! :) </strong>*//</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/rmsy">rmsy</a></p>
